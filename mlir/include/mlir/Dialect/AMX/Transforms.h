@@ -9,6 +9,10 @@
 #ifndef MLIR_DIALECT_AMX_TRANSFORMS_H
 #define MLIR_DIALECT_AMX_TRANSFORMS_H
 
+#include <optional>
+
+#include "mlir/Dialect/AMX/Analysis/AMXBindingAnalysis.h"
+
 namespace mlir {
 
 class LLVMConversionTarget;
